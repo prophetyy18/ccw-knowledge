@@ -1,0 +1,22 @@
+{
+  "name": "ccw-knowledge",
+  "displayName": "ccw-knowledge",
+  "version": "1.0.0",
+  "description": "Knowledge Layer for AI Coding Agents. Provides retrieval, capture, review, audit, and bootstrap Skills that work against an Obsidian-compatible Vault.",
+  "author": {
+    "name": "ccw-knowledge authors",
+    "url": "https://github.com/prophetyy18/ccw-knowledge"
+  },
+  "homepage": "https://github.com/prophetyy18/ccw-knowledge",
+  "repository": "https://github.com/prophetyy18/ccw-knowledge",
+  "license": "MIT",
+  "keywords": ["knowledge", "obsidian", "agent-memory", "context"],
+  "defaultEnabled": true,
+  "skills": [
+    "./skills/knowledge-context",
+    "./skills/knowledge-capture",
+    "./skills/knowledge-review",
+    "./skills/knowledge-audit",
+    "./skills/knowledge-bootstrap"
+  ]
+}

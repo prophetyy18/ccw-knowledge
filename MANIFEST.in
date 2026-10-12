@@ -1,0 +1,11 @@
+include LICENSE
+include README.md
+include ARCHITECTURE.md
+include CHANGELOG.md
+include ccw_knowledge/py.typed
+recursive-include plugin *.md
+recursive-include plugin *.json
+recursive-include adapters *.md
+recursive-include tests *.py
+recursive-include tests *.json
+recursive-include tests *.sh
